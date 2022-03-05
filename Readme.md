@@ -114,7 +114,13 @@ plugins: ['~/plugins/vue-button-toggle.js'],
 </template>
 ```
 
+![Screenshot](https://github.com/MahdadGhasemian/vue-button-toggle/blob/master/vue-button-toggle.gif)
+
 ## Change log
+
+### 0.0.2 (2022-03-05)
+
+- add readme file
 
 ### 0.0.1 (2022-03-05)
 
