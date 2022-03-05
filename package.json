@@ -1,6 +1,6 @@
 {
   "name": "vue-button-toggle",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
 
   "main": "dist/vue-button-toggle.ssr.js",
