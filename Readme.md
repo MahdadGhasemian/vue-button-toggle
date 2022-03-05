@@ -2,6 +2,8 @@
 
 A Customizable Toggle/Switch Button Component For Vue
 
+![Screenshot](https://github.com/MahdadGhasemian/vue-button-toggle/blob/master/vue-button-toggle.gif)
+
 ## Installation
 
 ### npm
