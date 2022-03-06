@@ -1,6 +1,6 @@
 <script>
-export default /*#__PURE__*/ {
-  name: "VueButtonToggle", // vue component name
+export default {
+  name: "VueButtonToggle",
   props: {
     value: {
       type: Boolean,
@@ -41,6 +41,9 @@ export default /*#__PURE__*/ {
   watch: {
     checked() {
       this.$emit("input", this.checked);
+    },
+    value() {
+      this.checked = this.value;
     },
   },
   created() {

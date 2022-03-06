@@ -118,7 +118,28 @@ plugins: ['~/plugins/vue-button-toggle.js'],
 
 ![Screenshot](https://github.com/MahdadGhasemian/vue-button-toggle/blob/master/vue-button-toggle.gif)
 
+### Example1
+
+```html
+<template>
+  <div>
+    <vue-button-toggle
+      v-model="switchValue"
+      bg-active-color="#0071FF"
+      bg-deactive-color="#787880"
+      dot-active-color="#FFFFFF"
+      dot-deactive-color="#FFFFFF"
+    >
+    </vue-button-toggle>
+  </div>
+</template>
+```
+
 ## Change log
+
+### 0.0.3 (2022-03-06)
+
+- fixed v-model
 
 ### 0.0.2 (2022-03-05)
 
